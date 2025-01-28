@@ -36,6 +36,7 @@ function App() {
       { operator: 'site:', description: 'Search within a specific domain', example: 'site:github.com hacking', value: '' },
       { operator: 'inurl:', description: 'Search for URL containing specific text', example: 'inurl:admin', value: '' },
       { operator: 'allinurl:', description: 'URLs containing all specified terms', example: 'allinurl:admin login', value: '' },
+      { operator: 'inbody:', description: 'Search for text within the body of a page', example: 'inbody:password', value: '' },
       { operator: 'intitle:', description: 'Search for pages with specific title', example: 'intitle:"Index of /"', value: '' },
       { operator: 'allintitle:', description: 'Title containing all specified terms', example: 'allintitle:admin dashboard', value: '' },
       { operator: 'intext:', description: 'Search within page text', example: 'intext:"password"', value: '' },
